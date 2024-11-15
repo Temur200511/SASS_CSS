@@ -72,6 +72,14 @@ li a:hover{
     gap: 20px;
 }
 
+.background_5{
+    .px_18{
+        width: 470px; text-align: center; margin: auto; margin-top: 40px;
+    }
+}
+
+
+
 .buttons button{
 background-color: transparent;
 border: none;
@@ -446,7 +454,10 @@ padding: 41px 0 70px 0;
       padding-top: 50px;
       padding-bottom: 229px;
     }
-
+    
+    .px_24{
+        width: 214px;
+    }
     
 }
 
@@ -921,24 +932,67 @@ margin: auto;
         width: 314px;
         margin: auto;
     }
-
+}
 
     .background_5
     {
-       .hills .px_18, .our{
+       .our{
             width: 314px;
             margin: auto;
+        }
+        .px_18{
+            width: 314px;
+            margin: auto;
+
+        }
+
+        .hills{
+            margin: auto;
+            margin-right: 150px;
+            margin-left: 0;
+
+            p{
+                margin-right: 180px;
+            }
+            button{
+                margin-right: 130px;
+                margin-left: 0;
+            }
+        }
+    }
+
+.background_6{
+    .px_42{
+        width: 314px;
+        font-size: 40px;
+    }
+
+    .bozor{
+        width: 75%;
+    margin: 0 50px;
+    }
+
+    .country{
+        flex-direction: column;
+        img{
+            width: 75%;
         }
     }
 }
 
+.background_7{
+    .px_18{
+        width: 314px;
+    }
+}
 
+.background_9{
+    footer{
+        ul, .logo{
+        flex-direction: column;
 
-
-
-
-
-
-
+        }
+    }
+}
 
 }
