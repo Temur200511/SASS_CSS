@@ -720,6 +720,9 @@ body {
   .background_2 button {
     margin-right: 90px;
   }
+  .background_2 .walkways {
+    width: 314px;
+  }
   .background_3 .explore {
     width: 314px;
     margin: auto;
@@ -755,19 +758,45 @@ body {
     margin-right: 130px;
     margin-left: 0;
   }
+  .background_5 .hills {
+    width: 314px;
+    margin-left: 50px;
+  }
+  .background_5 .hills button {
+    margin-right: 0;
+  }
+  .background_6 {
+    padding: 0 0;
+    margin: 0 0;
+  }
   .background_6 .px_42 {
     width: 314px;
     font-size: 40px;
   }
   .background_6 .bozor {
     width: 75%;
-    margin: 0 50px;
   }
   .background_6 .country {
     flex-direction: column;
   }
   .background_6 .country img {
     width: 75%;
+  }
+  .background_6 .country .cocos, .background_6 .country .city {
+    width: 314px;
+  }
+  .background_6 .country .cocos {
+    width: 75%;
+    margin-left: 0;
+  }
+  .background_6 .country {
+    padding: 0 0;
+    margin: 0 0;
+    width: 314px;
+  }
+  .background_6 .country .kokos {
+    padding: 0 0;
+    margin: 0 0;
   }
   .background_7 .px_18 {
     width: 314px;

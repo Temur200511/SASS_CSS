@@ -24,6 +24,7 @@ body{
 max-width: 1220px;
 margin: 0 auto;
 
+
 header{
     padding-top: 30px;
     display: flex;
@@ -900,12 +901,16 @@ width: 314px;
 .background_2{
     .walkways{
         text-align: center;
-        margin:     auto;
+        margin:   auto;
         margin-left: 65px;
     }
 
     button{
         margin-right: 90px;
+    }
+    .walkways{
+        width: 314px;
+
     }
 }
 
@@ -959,6 +964,16 @@ margin: auto;
                 margin-left: 0;
             }
         }
+
+        .hills{
+            width: 314px;
+
+           margin-left: 50px;
+
+           button{
+            margin-right: 0;
+           }
+        }
     }
 
 .background_6{
@@ -969,7 +984,7 @@ margin: auto;
 
     .bozor{
         width: 75%;
-    margin: 0 50px;
+    
     }
 
     .country{
@@ -977,7 +992,30 @@ margin: auto;
         img{
             width: 75%;
         }
+
+        .cocos, .city{
+            width: 314px;
+        }
+
+        .cocos{
+            width: 75%;
+            margin-left: 0;
+        }
     }
+
+    .countr_cit{}
+        padding: 0 0 ;
+        margin: 0 0;
+
+        .country{
+            padding: 0 0 ;
+        margin: 0 0;
+        width: 314px;
+        .kokos{
+            padding: 0 0 ;
+            margin: 0 0;
+        }
+}
 }
 
 .background_7{
