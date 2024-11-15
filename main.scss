@@ -191,6 +191,7 @@ background-color: #0000009d;
     position: absolute;
     left: 100px;
     bottom: 44px;
+    overflow: hidden;
 }
 
 }
@@ -213,7 +214,6 @@ background-color: #0000009d;
 font-size: 42px;
 font-weight: 700;
 line-height: 50px;
-text-align: left;
 text-decoration-skip-ink: none;
 
     }
@@ -467,11 +467,9 @@ padding-top: 130px;
     .px_26{
         padding: 28px 0 30px 0;
         color: #010A20;
-      
 font-size: 26.41px;
 font-weight: 700;
 line-height: 41.08px;
-text-decoration-skip-ink: none;
 margin-left: 50px;
     }
 
@@ -519,6 +517,428 @@ display: flex;
     }
     }
 
+}
+
+
+@media (max-width: 1670px) 
+{
+    .beach{
+        height: 240px;
+    }
+}
+
+
+@media (max-width: 1630px) 
+{
+.days{
+    right: 0;
+}
+
+.beach
+{
+    right: -90px;
+    width: 360px;
+}
+
+.background .footer_head{
+    gap: 40px; 
+}
+}
+
+@media (max-width: 1530px) 
+{
+    .background_9 footer{
+        gap: 200px;
+    }
+
+
+}
+
+@media (max-width: 1470px) 
+{
+.background header{
+    gap: 300px;
+
+    .days{
+        right: 0;
+    }
 
    
+}
+
+.background .footer_head{
+        padding-right: 300px;
+}
+
+}
+
+@media (max-width: 1440px) 
+{
+    .background_3 .article{
+        gap: 30px;
+    }
+    .background_3 .nature img{
+        width: 350px;
+    }
+}
+
+@media (max-width: 1310px) 
+{
+    .bozor{
+        width: 800px;
+        margin-left: 200px;
+    }
+
+    .container .section h1, .start{
+        margin-left: 200px;
+    }
+
+   .container header{
+        gap: 70px;
+    }
+
+    .container .days{
+        left: 0;
+    }
+    
+    .background_2 .road, .walkways{
+        width: 460px;
+    }
+    .background .footer_head{
+        padding-right: 90px;
+        padding-left: 20px;
+    }
+
+   .background .footer_head .one 
+    {
+        
+width: 160px;
+        padding-right: 0;
+        margin-right: 0;
+        }
+
+
+        .background_2 .plyaj{
+            width: 470px;
+        }
+
+        .grid{
+            width: 900px;
+        }
+
+        .background_8 .getting{
+ margin-left: 100px;
+        }
+    }
+
+@media (max-width: 1220px) 
+{
+.background .footer_head{
+    margin-right: 170px;
+}
+
+.background .footer_head .one{
+    padding: 40px 0;
+    margin: 0 0;
+}
+
+.background_6 .countr_cit{
+    flex-direction: column;
+    width: 100%;
+}
+.background_6 p{
+    width: 340px;
+}
+
+.background_7 .gallery{
+    text-align: center;
+    margin: auto;
+}
+
+.background_3 .nature img{
+    width: 280px;
+
+}
+
+}
+
+@media (max-width: 1160px) 
+{
+.background_9 footer{
+    gap: 60px;
+}
+
+.background_8 .px_24{
+    width: 780px;
+}
+
+.background_4 .visits{
+    flex-direction: column;
+    padding-bottom: 49px;
+}
+
+.background_4 .text{
+    width: 70%;
+}
+
+.background_5{
+    margin-top: 400px;
+}
+
+}
+
+@media (max-width: 1100px) 
+{
+    .background_2 .road{
+        width: 370px;
+    }
+
+    .background_2 button{
+        text-align: left;
+        margin: auto;
+    }
+    
+    .background_2 .section{
+gap: 40px;
+
+    }
+
+    .background_2{
+        p{
+            width: 80%;
+        }
+    }
+
+    .background_3 .nature img{
+        width: 250px;
+    }
+}
+
+@media (max-width: 1050px) 
+{
+.background_6 .px_42{
+    width:  780px;
+}
+
+.background_6 .bozor{
+    width: 700px;
+margin-left: 90px;
+    text-align: center;
+}
+
+.background .footer_head{
+    flex-direction: column;
+    padding: 50px 0;
+    margin: 50px 0;
+    gap: 0;
+}
+
+}
+
+@media (max-width: 1010px) 
+{
+    .background_9{
+        footer{
+            flex-direction: column;
+        }
+    }
+
+    .background_7 .grid{
+        width: 80%;
+    }
+}
+@media (max-width: 1010px) 
+{
+    .background_2{
+        .section{
+            flex-direction: column;
+            text-align: center;
+            margin: auto;
+        }
+    }
+
+    .background header{
+
+        .indonesia{
+            width: 120px;
+        }
+a{
+    font-size: 10px;
+}
+     
+    }
+    .background header{
+        gap: 20px;
+    }
+}
+
+@media (max-width: 900px) 
+{
+    .background_3 {
+        .nature img:nth-child(odd){
+            display: none;
+        }
+        .nature img:nth-child(2){
+            width: 80%;
+        }
+    }
+
+   .background header{
+flex-direction: column;
+gap: 10px;
+
+ul{
+    gap: 19px;
+}
+
+    }
+    .background{
+        h1{
+            font-size: 80px;
+        }
+    }
+
+    .background_8{
+        .Video{
+            flex-direction: column;
+            margin-right: 50px;
+        }
+
+        .px_60{
+            font-size: 40px;
+        }
+
+        .px_24{
+            width: 70%;
+        }
+    } 
+  
+}
+
+
+@media (max-width: 883px) 
+{
+    .background{
+        .footer_head{
+            padding-bottom: 250px;
+        }
+       .beach{
+        right: 200px;
+       }
+    }
+}
+
+@media (max-width: 843px) 
+{
+   .background_6{
+  
+   .px_42{
+   width: 500px;
+  }   
+  .bozor{
+    width: 500px;
+    margin-right: 0;
+  }
+}
+
+}
+
+@media (max-width: 500px) 
+{
+    .background{
+
+        header{
+            flex-direction: row;
+            gap: 130px;
+        }
+
+        ul{
+            display: none;
+        }
+
+        h1{
+            margin: auto;
+            text-align: center;
+        }
+
+      header .indonesia{
+            width: 148px;
+        }
+
+        .container .section h1{
+            font-size: 58px;
+width: 314px;
+           margin-left: 80px;
+           margin-top: 50px;
+           line-height: 60px;
+        }
+
+        .start{
+            margin-left:90px;
+        }
+        .beach{
+            right: 60px;
+        }
+
+        .days{
+            display: none;
+        }
+    }
+
+
+.background_2{
+    .walkways{
+        text-align: center;
+        margin:     auto;
+        margin-left: 65px;
+    }
+
+    button{
+        margin-right: 90px;
+    }
+}
+
+.background_3{
+
+    .explore{
+    width: 314px;
+margin: auto;
+    }
+
+.article{
+    gap: 0px;
+    gap:1px;
+}
+
+
+.nature img{
+    width: 300px;
+}
+}
+
+.background_4{
+    p, .dolor{
+        width: 314px;
+        margin: auto;
+    }
+
+
+    .background_5
+    {
+       .hills .px_18, .our{
+            width: 314px;
+            margin: auto;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
 }
