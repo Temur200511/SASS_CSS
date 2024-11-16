@@ -11,21 +11,34 @@
 <body>
     <div class="background">
         <div class="container">
-<header>
+<header id="home">
     <div class="logo">
         <img class="indonesia" src="assets/Group 7.png" alt="">
 
         <ul>
-            <li><a href="#">destinations</a></li>
-            <li><a href="#">experiences</a></li>
-            <li><a href="#">about</a></li>
-            <li><a href="#">gallery</a></li>
+            <li><a href="#destinations">destinations</a></li>
+            <li><a href="#experiences">experiences</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#gallery">gallery</a></li>
 
         </ul>
+
+<div class="hidden_menu">
+        <ul class="ul_3">
+
+            <li><a href="#">About</a></li>
+           <li><a href="#">Pricing</a></li>
+           <li><a href="#">Company</a></li>
+           <li><a href="#">Blog</a></li>
+
+        </ul>
+
+    </div>
+
+
     </div>
 
         <div class="buttons">
-        <!-- <button class="search"><img src="assets/Frame 3.png" alt=""></button> -->
 
 
         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -33,7 +46,6 @@
 
           </button>
           
-          <!-- Modal -->
           <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
               <div class="modal-content">
@@ -55,7 +67,7 @@
               </div>
             </div>
           </div>
-<button><img src="assets/menu.png" alt=""></button>
+<button class="menu"><img  src="assets/menu.png" alt=""></button>
 </div>
 
 
@@ -66,7 +78,7 @@
 <h1 class="px_120">explore
     indonesia</h1>
 
-    <button class="start">
+    <button class="start travelling">
         Start travelling
     </button>
 
@@ -109,11 +121,11 @@
 
 
 <div class="background_2">
-<section class="container">
+<section id="destinations" class="container">
     <div class="section">
     <img class="road" src="assets/Rectangle 9 (1).png" alt="">
-    <div class="walkways px_42">
-    <p>The walkways of Indonesia spellbind</p>
+    <div class="walkways">
+    <p class=" px_42">The walkways of Indonesia spellbind</p>
     <p class="px_18 ipsum">Lorem ipsum dolor sit amet, consectetur adip iscing elit. Fusce commodo magna et libero mollis rhoncus. </p>
 
     <button class="start learn">Learn More</button>
@@ -121,8 +133,8 @@
 </div>
 
 <div class="section second">
-    <div class="walkways px_42">
-    <p>Perfect beaches exude relaxation and fun</p>
+    <div class="walkways ">
+    <p class="px_42">Perfect beaches exude relaxation and fun</p>
     <p class="px_18 ipsum">Lorem ipsum dolor sit amet, consectetur adip iscing elit. Fusce commodo magna et libero mollis rhoncus. </p>
 
     <button class="start learn">Learn More</button>
@@ -139,7 +151,7 @@
 
 
 <div class="background_3">
-<div class="container">
+<div id="experiences" class="container">
 <p class="px_50 explore">Explore Our Secrets</p>
 
 <div class="article">
@@ -195,7 +207,7 @@
 
 
 <div class="background_4">
-    <div class="container">
+    <div id="about" class="container">
             <div class="numbers">
     
                 <p class="px_60">By The Numbers</p>
@@ -272,7 +284,7 @@
 
 
 <div  class="background_7">
-<div class="container">
+<div id="gallery" class="container">
     <p class="px_60 gallery">Photo Gallery</p>
     <p class="px_18">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus tempus, eget tincidunt.</p>
 </div>
@@ -306,24 +318,36 @@
     <p class="px_26" style="padding-top: 90px;">Planning your experiences</p>
     <p class="px_24">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus tempus, eget tincidunt lacus varius.</p>
 
-    <button style="border: 1px solid #DD2242; margin-left: 45px; margin-bottom: 100px;" class="start learn">Learn More</button>
+    <button  class="start learn">Learn More</button>
 
 
 </div>
+
+<div>
+    <button>
+        <a href="#home">
+        <img class="backtotop" src="assets/Union (2).png" alt=""></button>
+    </a>
 </div>
 
-<button class="btn btn-primary jumping">Jumping Button</button>
+</div>
+
+
+
 
 <div class="background_9">
-    <footer class="container">
-        <div class="logo">
+    <div class="container">
+
+    
+    <footer>
+        <div class="logo_2">
             <img src="assets/Group 7.png" alt="">
     
-            <ul>
+            <ul class="footer_ul">
                 <li><a href="#">About</a></li>
                 <li><a href="#">Pricing</a></li>
                 <li><a href="#">Company</a></li>
-                <li><a href="#">blog</a></li>
+                <li><a href="#">Blog</a></li>
     
             </ul>
         </div>
@@ -332,14 +356,14 @@
             <img src="assets/Union (1).png" alt="">
             <img src="assets/Union.png" alt="">
             <img src="assets/Union (1).png" alt="">
-            <p style="white-space: nowrap;" class="px_18">Copyright © 2019</p>
+            <p style="white-space: nowrap; color: white;" class="px_18">Copyright © 2019</p>
         </div>
            
-    </div>
     
     </footer>
 </div>
 
+</div>
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

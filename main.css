@@ -9,6 +9,10 @@ body {
   font-family: "DM Sans", sans-serif;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 .background {
   background-image: url("assets/background.png");
   background-size: cover;
@@ -17,65 +21,94 @@ body {
   background-color: red;
   position: relative;
 }
-
-.container {
+.background .container {
   max-width: 1220px;
   margin: 0 auto;
 }
-.container header {
+.background header {
   padding-top: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 500px;
 }
-.container .logo {
+.background .logo {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 50px;
 }
-.container ul {
+.background ul {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 50px;
 }
-.container ul li {
+.background ul li {
   list-style: none;
   text-decoration: none;
   text-transform: uppercase;
 }
-.container ul li a {
+.background ul li a {
   color: #FFFFFF;
   font-size: 18px;
   font-weight: 700;
   line-height: 23.44px;
   text-decoration: none;
 }
-.container li a:hover {
+.background li a:hover {
   color: rgba(148, 255, 127, 0.974);
 }
-.container .buttons {
+.background .travelling:hover {
+  scale: 1.01;
+}
+
+.background .hidden_menu{
+  display: none;
+  max-width: 1220px;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  position: fixed;
+            top: -200px; /* Menyu boshlang‘ich holatda ko‘rinmaydi */
+            left: 0;
+            right: 0;
+            background-color: #f8f9fa;
+            border: 1px solid #ddd;
+            padding: 20px;
+            text-align: center;
+            transition: top 0.5s ease; /* Animatsiya */
+            z-index: 1000;
+}
+
+.background .menu:active .hidden_menu{
+  display: block;
+  top: 0;
+
+}
+.background:active .menu header{
+display: none;
+}
+
+.background .buttons {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
 }
-.container .background_5 .px_18 {
+.background .background_5 .px_18 {
   width: 470px;
   text-align: center;
   margin: auto;
   margin-top: 40px;
 }
-.container .buttons button {
+.background .buttons button {
   background-color: transparent;
   border: none;
 }
-.container button:hover {
+.background button:hover {
   cursor: pointer;
 }
-.container h1 {
+.background h1 {
   font-size: 120px;
   font-weight: 900;
   line-height: 130px;
@@ -86,49 +119,48 @@ body {
   text-transform: uppercase;
   margin-top: 190px;
 }
-.container .start {
-  padding: 25px 55px;
+.background .start {
+  padding: 15px 40px;
   border-radius: 70px;
+  background-color: #DD2242;
+  color: #FFFFFF;
   font-size: 20px;
   font-weight: 700;
   line-height: 30px;
-  text-align: center;
-  -webkit-text-decoration-skip-ink: none;
-          text-decoration-skip-ink: none;
-  background: #DD2242;
-  color: #FFFFFF;
-  margin-top: 50px;
 }
-.container .section {
+.background .section {
   position: relative;
 }
-.container .red_img, .container .white_im {
+.background .travelling:hover {
+  scale: 1.01;
+}
+.background .red_img, .background .white_im {
   position: absolute;
   left: -230px;
 }
-.container .red_img {
+.background .red_img {
   top: -5px;
   left: -235px;
 }
-.container .white_im {
+.background .white_im {
   top: 93px;
   right: -30px;
 }
-.container .section button:hover {
-  background-color: rgba(150, 255, 127, 0.974);
-  scale: 1.1;
+.background .section button:hover {
+  background-color: rgba(220, 16, 16, 0.974);
+  scale: 1.01;
   transition: all 0.3s ease;
 }
-.container .number {
+.background .number {
   position: absolute;
   left: -235px;
   transform: rotate(-90deg);
 }
-.container .one {
+.background .one {
   color: #DD2242;
   font-size: 16px;
 }
-.container .px_26 {
+.background .px_26 {
   color: #FFFFFF;
   font-size: 26.41px;
   font-weight: 700;
@@ -139,18 +171,15 @@ body {
           text-decoration-skip-ink: none;
   padding: 10px 0;
 }
-.container .px_18 {
-  color: #939393;
+.background .px_18 {
+  color: #E0E0E0;
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0.5px;
   text-align: left;
-  text-underline-position: from-font;
-  -webkit-text-decoration-skip-ink: none;
-          text-decoration-skip-ink: none;
 }
-.container .footer_head {
+.background .footer_head {
   margin-right: 20px;
   margin-top: 200px;
   display: flex;
@@ -160,22 +189,23 @@ body {
   border: 1px solid #000000;
   background-color: rgba(0, 0, 0, 0.6156862745);
 }
-.container .footer_head .one {
+.background .footer_head .one {
   width: 200px;
   padding: 40px 0;
 }
-.container .beach {
+.background .beach {
   position: absolute;
   right: 0px;
   bottom: 0px;
   overflow: hidden;
 }
-.container .days {
+.background .days {
   position: absolute;
   left: 100px;
   bottom: 44px;
   overflow: hidden;
 }
+
 
 .background_2 {
   background-image: url("assets/Rectangle.png");
@@ -196,6 +226,12 @@ body {
 }
 .background_2 .learn {
   padding: 15px 40px;
+  background-color: #DD2242;
+  border-radius: 32px;
+}
+.background_2 .learn:hover {
+  background-color: rgba(213, 6, 40, 0.8431372549);
+  scale: 1.01;
 }
 .background_2 .ipsum {
   padding: 20px 0;
@@ -209,6 +245,9 @@ body {
 }
 .background_2 .second {
   padding-bottom: 300px;
+}
+.background_2 .px_18 {
+  color: #E0E0E0;
 }
 
 .background_3 {
@@ -248,6 +287,15 @@ body {
   margin-top: 30px;
   padding-bottom: 1600px;
 }
+.background_3 .start {
+  padding: 15px 40px;
+  border-radius: 70px;
+  background-color: #DD2242;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+}
 
 .background_4 {
   background: rgba(2, 12, 33, 0.8352941176);
@@ -281,6 +329,13 @@ body {
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
   color: #DD2242;
+}
+.background_4 .px_18 {
+  color: #E0E0E0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.5px;
 }
 .background_4 .visits {
   margin-top: 40px;
@@ -320,6 +375,16 @@ body {
 .background_5 button:hover {
   scale: 1.1;
   background-color: rgba(133, 127, 255, 0.538);
+}
+.background_5 .start {
+  padding: 15px 40px;
+  border-radius: 70px;
+  background-color: #DD2242;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  border: none;
 }
 
 .background_6 {
@@ -438,9 +503,37 @@ body {
   padding-top: 95px;
   margin-left: 50px;
 }
+.background_8 .start {
+  padding: 15px 40px;
+  border-radius: 70px;
+  background-color: #DD2242;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-bottom: 100px;
+  border: none;
+}
+.background_8{
+  position: relative;
+}
+.background_8 .backtotop{
+  position: absolute;
+        right: 0;
+        bottom: 0;
+        box-shadow: 0px 7px 10px 0px #00000033;
+background-color: #DD2242;
+border-radius: 50%;
+border: 1px solid #DD2242;
+right: 50px;
+bottom: -20px;
+padding: 39px 33px;
+}
+
 
 .background_9 {
   background: #010A20;
+  
 }
 .background_9 footer {
   padding-top: 50px;
@@ -458,6 +551,35 @@ body {
   justify-content: center;
   align-items: center;
   gap: 20px;
+}
+
+.background_9 ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.logo_2{
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.footer_ul li
+{
+  list-style: none;
+text-decoration: none;
+}
+.footer_ul li a{
+text-decoration: none;
+color: #E0E0E0;
+}
+footer .icons{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center
 }
 
 @media (max-width: 1670px) {
@@ -765,10 +887,6 @@ body {
   .background_5 .hills button {
     margin-right: 0;
   }
-  .background_6 {
-    padding: 0 0;
-    margin: 0 0;
-  }
   .background_6 .px_42 {
     width: 314px;
     font-size: 40px;
@@ -788,15 +906,6 @@ body {
   .background_6 .country .cocos {
     width: 75%;
     margin-left: 0;
-  }
-  .background_6 .country {
-    padding: 0 0;
-    margin: 0 0;
-    width: 314px;
-  }
-  .background_6 .country .kokos {
-    padding: 0 0;
-    margin: 0 0;
   }
   .background_7 .px_18 {
     width: 314px;
